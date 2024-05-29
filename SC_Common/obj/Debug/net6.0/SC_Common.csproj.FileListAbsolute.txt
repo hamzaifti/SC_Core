@@ -1,0 +1,12 @@
+D:\SCApp\SC_Core\SC_Common\bin\Debug\net6.0\SC_Common.deps.json
+D:\SCApp\SC_Core\SC_Common\bin\Debug\net6.0\SC_Common.dll
+D:\SCApp\SC_Core\SC_Common\bin\Debug\net6.0\SC_Common.pdb
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\SC_Common.csproj.AssemblyReference.cache
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\SC_Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\SC_Common.AssemblyInfoInputs.cache
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\SC_Common.AssemblyInfo.cs
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\SC_Common.csproj.CoreCompileInputs.cache
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\SC_Common.dll
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\refint\SC_Common.dll
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\SC_Common.pdb
+D:\SCApp\SC_Core\SC_Common\obj\Debug\net6.0\ref\SC_Common.dll
