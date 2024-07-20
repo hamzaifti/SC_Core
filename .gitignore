@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs
+
+# Include folder for Web publish
+obj/
+bin/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results of specific configurations
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
