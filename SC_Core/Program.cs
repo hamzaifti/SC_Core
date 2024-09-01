@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("*").AllowAnyHeader().AllowAnyMethod();
+                          policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
 
                       });
 });
@@ -83,14 +83,19 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
 
 app.UseMiddleware<JwtMiddleware>();
+
+app.MapControllers();
+
+app.MapFallbackToFile("index.html");
 
 app.Run();

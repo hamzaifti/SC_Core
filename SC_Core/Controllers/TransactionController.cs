@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SC_Common.Dto;
-using SC_Common.Model;
 using SC_Service.Transactions;
 
 namespace SC_Core.Controllers
