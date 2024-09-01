@@ -11,6 +11,7 @@ bin/
 *.suo
 *.userosscache
 *.sln.docstates
+wwwroot/
 
 # Ignore build results of specific configurations
 [Dd]ebug*/
